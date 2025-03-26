@@ -1,0 +1,38 @@
+# Snakefile
+
+rule reproduce_all:
+    input:
+        "results/visualization.png",
+        "results/analysis_results.json"
+
+rule prepare_data:
+    output:
+        weather="python scripts/data/allweather_df.csv",
+        orders="python scripts/data/onlineorder_clean.csv"
+    script:
+        "python scripts/prepare_data.py"
+
+rule merge_data:
+    input:
+        weather="python scripts/data/allweather_df.csv",
+        orders="python scripts/data/onlineorder_clean.csv"
+    output:
+        "intermediate/merged_data.csv"
+    script:
+        "python scripts/data_cleaning.py"
+
+rule visualize_data:
+    input:
+        "intermediate/merged_data.csv"
+    output:
+        "results/visualization.png",
+    script:
+        "python scripts/visualization.py"
+
+rule analyze_data:
+    input:
+        "intermediate/merged_data.csv"
+    output:
+        "results/analysis_results.json"
+    script:
+        "python scripts/analysis.py"

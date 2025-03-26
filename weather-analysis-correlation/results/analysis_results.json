@@ -1,0 +1,97 @@
+{
+    "California": {
+        "correlations": {
+            "avg_temperature": 0.27475171400397824,
+            "precipitation": -0.2537119450810059,
+            "wind_speed": 0.5941079852583222
+        },
+        "temperature_impact": {
+            "slope": 1.4759986269599539,
+            "intercept": 45.562406385013006,
+            "r_squared": 0.07548850434812382
+        },
+        "total_orders": 614,
+        "average_daily_orders": 61.4,
+        "weather_summary": {
+            "avg_temperature": 10.730086956521738,
+            "avg_precipitation": 1.0194782608695652,
+            "avg_wind_speed": 2.4331304347826093
+        }
+    },
+    "Chicago": {
+        "correlations": {
+            "avg_temperature": 0.7755736072394063,
+            "precipitation": -0.5036269836740123,
+            "wind_speed": -0.4689993589541646
+        },
+        "temperature_impact": {
+            "slope": 2.604333829519687,
+            "intercept": 30.995465264343913,
+            "r_squared": 0.601514420246345
+        },
+        "total_orders": 478,
+        "average_daily_orders": 59.75,
+        "weather_summary": {
+            "avg_temperature": 11.041032608695652,
+            "avg_precipitation": 0.9339130434782609,
+            "avg_wind_speed": 4.047608695652174
+        }
+    },
+    "New Jersey": {
+        "correlations": {
+            "avg_temperature": -0.37070182716033073,
+            "precipitation": -0.988585574836853,
+            "wind_speed": -0.15559116454327301
+        },
+        "temperature_impact": {
+            "slope": -0.858270207262056,
+            "intercept": 44.65766513064253,
+            "r_squared": 0.13741984466000767
+        },
+        "total_orders": 115,
+        "average_daily_orders": 28.75,
+        "weather_summary": {
+            "avg_temperature": 18.534565217391304,
+            "avg_precipitation": 0.263695652173913,
+            "avg_wind_speed": 2.7892391304347828
+        }
+    },
+    "New York": {
+        "correlations": {
+            "avg_temperature": 0.22511726527898704,
+            "precipitation": 0.5664062047729929,
+            "wind_speed": -0.49281257905115383
+        },
+        "temperature_impact": {
+            "slope": 1.0531770333192547,
+            "intercept": 35.46211648272937,
+            "r_squared": 0.0506777831266898
+        },
+        "total_orders": 409,
+        "average_daily_orders": 58.42857142857143,
+        "weather_summary": {
+            "avg_temperature": 21.806832298136644,
+            "avg_precipitation": 0.2181366459627329,
+            "avg_wind_speed": 3.026335403726708
+        }
+    },
+    "Washington DC": {
+        "correlations": {
+            "avg_temperature": 0.9260694346923892,
+            "precipitation": 0.48690569143972334,
+            "wind_speed": -0.8758599290964443
+        },
+        "temperature_impact": {
+            "slope": 0.8898316622611051,
+            "intercept": -5.713402727810555,
+            "r_squared": 0.8576045978714812
+        },
+        "total_orders": 78,
+        "average_daily_orders": 15.6,
+        "weather_summary": {
+            "avg_temperature": 23.952173913043477,
+            "avg_precipitation": 0.12895652173913041,
+            "avg_wind_speed": 2.8952173913043477
+        }
+    }
+}

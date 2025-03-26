@@ -1,0 +1,13 @@
+pandas
+json
+snakemake
+requests
+zipfile
+sklearn
+os
+arrow
+kaggle
+numpy
+matplotlib
+datetime
+seaborn
